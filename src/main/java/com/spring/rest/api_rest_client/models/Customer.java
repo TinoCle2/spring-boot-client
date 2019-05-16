@@ -1,4 +1,4 @@
-package com.spring.rest.api_mongo.models;
+package com.spring.rest.api_rest_client.models;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
@@ -19,8 +19,8 @@ public class Customer {
 		this.dni = dni;
 	}
 
-	public String get_id() {
-		return _id.toHexString();
+	public ObjectId get_id() {
+		return _id;
 	}
 
 	public void set_id(ObjectId _id) {

@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.spring.rest</groupId>
-	<artifactId>api_mongo</artifactId>
+	<artifactId>api_rest_client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>api_mongo</name>
 	<description>Demo project for Spring Boot</description>
