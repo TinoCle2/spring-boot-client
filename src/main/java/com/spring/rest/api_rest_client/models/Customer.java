@@ -1,29 +1,26 @@
 package com.spring.rest.api_rest_client.models;
 
-import org.bson.types.ObjectId;
-import org.springframework.data.annotation.Id;
 
 public class Customer {
-	@Id
-	public ObjectId _id;
+	public String _id;
 	
 	public String name;
 	public int dni;
 	
 	public Customer() {}
 
-	public Customer(ObjectId _id, String name, int dni) {
+	public Customer(String _id, String name, int dni) {
 		super();
 		this._id = _id;
 		this.name = name;
 		this.dni = dni;
 	}
 
-	public ObjectId get_id() {
+	public String get_id() {
 		return _id;
 	}
 
-	public void set_id(ObjectId _id) {
+	public void set_id(String _id) {
 		this._id = _id;
 	}
 
